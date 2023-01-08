@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>chess-board-position</title>
+</head>
+<body><div class="input">
+    <p>Enter the x coordinate of the Knight:</p>
+    <input type="number" id="xInput" required>
+    <p>Enter the y coordinate of the Knight:</p>
+    <input type="number" id="yInput" required>
+    <br>
+    <button onclick="findPossiblePositions()" type="submit">Find Possible Positions</button>
+    </div> <h2>The Knight can move to the following positions:</h2>
+    <div class="show">
+    <p id="output"></p>
+    <div id="chessboard"></div>
+    </div>
+</body>
+</html>
